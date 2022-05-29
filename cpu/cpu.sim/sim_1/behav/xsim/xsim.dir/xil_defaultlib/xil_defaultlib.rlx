@@ -1,0 +1,25 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+V:/cpu/cpu/cpu.sim/sim_1/behav/xsim/glbl.v,1647810156,verilog,,,,glbl,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sim_1/new/testbench.v,1650849607,verilog,,,,testbench,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/alu.v,1651873402,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/alu_mux.v,,alu,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/alu_mux.v,1648688900,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/control_unit.v,,alu_mux,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/control_unit.v,1651889589,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/data_memory.v,,control_unit,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/data_memory.v,1648693728,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/datapath.v,,data_memory,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/datapath.v,1651946609,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/exmem_pipeline_register.v,,datapath,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/exmem_pipeline_register.v,1648692618,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/fwd_a_mux.v,,exmem_pipeline_register,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/fwd_a_mux.v,1651882456,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/fwd_b_mux.v,,fwd_a_mux,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/fwd_b_mux.v,1651882933,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/idexe_pipeline_register.v,,fwd_b_mux,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/idexe_pipeline_register.v,1647814562,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/ifid_pipeline_register.v,,idexe_pipeline_register,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/ifid_pipeline_register.v,1647810170,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/immediate_extender.v,,ifid_pipeline_register,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/immediate_extender.v,1647810170,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/instruction_memory.v,,immediate_extender,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/instruction_memory.v,1651947676,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/memwb_pipeline_register.v,,instruction_memory,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/memwb_pipeline_register.v,1648694568,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/not_gate.v,,memwb_pipeline_register,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/not_gate.v,1651884050,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/pc_adder.v,,not_gate,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/pc_adder.v,1647810172,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/program_counter.v,,pc_adder,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/program_counter.v,1647812910,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/register_file.v,,program_counter,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/register_file.v,1651883346,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/regrt_multiplexer.v,,register_file,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/regrt_multiplexer.v,1647824488,verilog,,V:/cpu/cpu/cpu.srcs/sources_1/new/writeback_mux.v,,regrt_multiplexer,,,,,,,,
+V:/cpu/cpu/cpu.srcs/sources_1/new/writeback_mux.v,1650830737,verilog,,V:/cpu/cpu/cpu.srcs/sim_1/new/testbench.v,,writeback_mux,,,,,,,,

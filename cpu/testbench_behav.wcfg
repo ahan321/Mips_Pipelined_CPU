@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="681.300 ns"></ZoomStartTime>
+      <ZoomEndTime time="966.101 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group13" type="group">
+      <obj_property name="label">memwb_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/wwreg" type="logic">
+         <obj_property name="ElementShortName">wwreg</obj_property>
+         <obj_property name="ObjectShortName">wwreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/wdestReg" type="array">
+         <obj_property name="ElementShortName">wdestReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wdestReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/wdo" type="array">
+         <obj_property name="ElementShortName">wdo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdo[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/wm2reg" type="logic">
+         <obj_property name="ElementShortName">wm2reg</obj_property>
+         <obj_property name="ObjectShortName">wm2reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/wr" type="array">
+         <obj_property name="ElementShortName">wr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wr[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">memwb_in</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/datapath/memwb_pipeline_register/mdestReg" type="array">
+         <obj_property name="ElementShortName">mdestReg[4:0]</obj_property>
+         <obj_property name="ObjectShortName">mdestReg[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/datapath/memwb_pipeline_register/mm2reg" type="logic">
+         <obj_property name="ElementShortName">mm2reg</obj_property>
+         <obj_property name="ObjectShortName">mm2reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/datapath/memwb_pipeline_register/mr" type="array">
+         <obj_property name="ElementShortName">mr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/datapath/memwb_pipeline_register/mwreg" type="logic">
+         <obj_property name="ElementShortName">mwreg</obj_property>
+         <obj_property name="ObjectShortName">mwreg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/datapath/memwb_pipeline_register/mdo" type="array">
+         <obj_property name="ElementShortName">mdo[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mdo[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">register_file</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/datapath/register_file/qa" type="array">
+         <obj_property name="ElementShortName">qa[31:0]</obj_property>
+         <obj_property name="ObjectShortName">qa[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/datapath/register_file/qb" type="array">
+         <obj_property name="ElementShortName">qb[31:0]</obj_property>
+         <obj_property name="ObjectShortName">qb[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

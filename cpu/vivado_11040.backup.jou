@@ -1,0 +1,227 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Apr 24 15:57:20 2022
+# Process ID: 11040
+# Current directory: V:/cpu/cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14196 V:\cpu\cpu\cpu.xpr
+# Log file: V:/cpu/cpu/vivado.log
+# Journal file: V:/cpu/cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/cpu/cpu.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files V:/cpu/cpu/cpu.srcs/sources_1/new/writeback_multiplexer.v] -no_script -reset -force -quiet
+remove_files  V:/cpu/cpu/cpu.srcs/sources_1/new/writeback_multiplexer.v
+close [ open V:/cpu/cpu/cpu.srcs/sources_1/new/writeback_mux.v w ]
+add_files V:/cpu/cpu/cpu.srcs/sources_1/new/writeback_mux.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run synth_1 -name synth_1
+place_ports
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+create_project lab_5 V:/lab_5 -part xc7z010clg400-1
+file mkdir V:/lab_5/lab_5.srcs/sources_1/new
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/exmem_pipeline_register.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/exmem_pipeline_register.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/memwb_pipeline_register.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/memwb_pipeline_register.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/instruction_memory.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/instruction_memory.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/data_memory.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/data_memory.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/immediate_extender.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/immediate_extender.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/idexe_pipeline_register.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/idexe_pipeline_register.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/datapath.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/datapath.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/pc_adder.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/pc_adder.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/program_counter.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/program_counter.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/ifid_pipeline_register.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/ifid_pipeline_register.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/control_unit.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/control_unit.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/regrt_multiplexer.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/regrt_multiplexer.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/alu.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/alu.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/alu_mux.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/alu_mux.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/writeback_mux.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/writeback_mux.v
+close [ open V:/lab_5/lab_5.srcs/sources_1/new/register_file.v w ]
+add_files V:/lab_5/lab_5.srcs/sources_1/new/register_file.v
+update_compile_order -fileset sources_1
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+current_project cpu
+current_project lab_5
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_project cpu
+current_project lab_5
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_project
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+refresh_design
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+current_design synth_1
+current_design rtl_1
+launch_simulation
+source testbench.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+launch_simulation
+refresh_design
+refresh_design
+launch_simulation
+source testbench.tcl
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/exmem_pipeline_register/mdestReg}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/wwreg}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/wm2reg}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/wdestReg}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/wr}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/wdo}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/register_file/wdestReg}} {{/testbench/datapath/register_file/wbData}} {{/testbench/datapath/register_file/wwreg}} {{/testbench/datapath/register_file/rs}} {{/testbench/datapath/register_file/rt}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/mwreg}} {{/testbench/datapath/memwb_pipeline_register/mm2reg}} {{/testbench/datapath/memwb_pipeline_register/mdestReg}} {{/testbench/datapath/memwb_pipeline_register/mr}} {{/testbench/datapath/memwb_pipeline_register/mdo}} 
+relaunch_sim
+relaunch_sim
+current_design synth_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+close_design
+open_run synth_1 -name synth_1
+current_design impl_1
+refresh_design
+reset_run synth_1
+current_design synth_1
+close_design
+close_design
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property SEVERITY
+set_property -help
+open_hw_manager
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+current_design impl_1
+current_design rtl_1
+close_sim

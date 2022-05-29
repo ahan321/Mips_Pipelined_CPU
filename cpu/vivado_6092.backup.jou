@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sat May  7 13:40:42 2022
+# Process ID: 6092
+# Current directory: V:/cpu/cpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7124 V:\cpu\cpu\cpu.xpr
+# Log file: V:/cpu/cpu/vivado.log
+# Journal file: V:/cpu/cpu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project V:/cpu/cpu/cpu.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+refresh_design
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/mdestReg}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/mm2reg}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/mr}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/mwreg}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/memwb_pipeline_register/mdo}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/register_file/qa}} 
+current_wave_config {Untitled 2}
+add_wave {{/testbench/datapath/register_file/qb}} 
+run all
+run 1000 ns
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+save_wave_config {V:/cpu/cpu/testbench_behav.wcfg}
+close_sim
