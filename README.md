@@ -1,4 +1,4 @@
-# Mips_Pipelined_CPU
+# 5-Staged MIPS Pipelined CPU
 ## Synopsis
 This is a 5-staged MIPS pipelined CPU that I created for my Computer Organization &amp; Design Class using Xilinx Vivado.  It incorporates branch delays and forwarding, and utilizes the MIPS instruction set.  The design passes both the synthesis and implementation phases.
 
